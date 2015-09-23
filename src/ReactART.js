@@ -16,12 +16,12 @@ require('art/modes/fast'); // Flip this to DOM mode for debugging
 var Transform = require('art/core/transform');
 var Mode = require('art/modes/current');
 
-var React = require('react');
-var ReactInstanceMap = require('react/lib/ReactInstanceMap');
-var ReactMultiChild = require('react/lib/ReactMultiChild');
-var ReactUpdates = require('react/lib/ReactUpdates');
+var React = require('@benchling/react');
+var ReactInstanceMap = require('@benchling/react/lib/ReactInstanceMap');
+var ReactMultiChild = require('@benchling/react/lib/ReactMultiChild');
+var ReactUpdates = require('@benchling/react/lib/ReactUpdates');
 
-var assign = require('react/lib/Object.assign');
+var assign = require('@benchling/react/lib/Object.assign');
 var emptyObject = require('fbjs/lib/emptyObject');
 
 var pooledTransform = new Transform();

@@ -49,8 +49,8 @@ function testDOMNodeStructure(domNode, expectedStructure) {
 describe('ReactART', function() {
 
   beforeEach(function() {
-    React = require('react');
-    ReactTestUtils = require('react/lib/ReactTestUtils');
+    React = require('@benchling/react');
+    ReactTestUtils = require('@benchling/react/lib/ReactTestUtils');
 
     var ReactART = require('ReactART');
     var ARTSVGMode = require('art/modes/svg');

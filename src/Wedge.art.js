@@ -22,7 +22,7 @@
  *
  */
 
-var React = require('react');
+var React = require('@benchling/react');
 var ReactART = require('./ReactART');
 
 var Props = React.PropTypes;

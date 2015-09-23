@@ -8,7 +8,7 @@
  */
 "use strict";
 
-var React = require('react');
+var React = require('@benchling/react');
 var ReactART = require('react-art');
 var Group = ReactART.Group;
 var Shape = ReactART.Shape;
